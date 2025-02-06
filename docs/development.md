@@ -15,5 +15,5 @@ poetry install --all-extras
 Before commit, run follwing commands:
 
 ```bash
-poetry lock
+pre-commit
 ```
