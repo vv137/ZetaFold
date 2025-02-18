@@ -29,6 +29,7 @@ RUN pyenv install "$(cat .python-version)" && \
     pyenv global "$(cat .python-version)"
 
 COPY ./poetry* /opt/
+# hadolint ignore=DL3013
 RUN pip install --no-cache-dir poetry && \
     poetry config virtualenvs.create false
 

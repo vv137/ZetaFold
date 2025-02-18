@@ -5,6 +5,7 @@
         "dockerfile": "Dockerfile"
     },
     "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {},
         "ghcr.io/devcontainers-contrib/features/pre-commit:2": {},
         "ghcr.io/dhoeric/features/hadolint:1": {}
     },
@@ -43,7 +44,8 @@
                     "zsh": {
                         "path": "/bin/zsh"
                     }
-                }
+                },
+                "git.useIntegratedAskPass": false
             }
         }
     },
