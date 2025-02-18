@@ -15,6 +15,7 @@ dependencies = [
     "modelcif",
     "pydantic",
     "jaxtyping",
+    "pyyaml",
 ]
 
 
